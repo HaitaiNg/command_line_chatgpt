@@ -53,7 +53,7 @@ cargo test --test api_tests
 ```
 
 ## Future enhancements
-- Stream ChatGPT responses character-by-character.
+- ✅ Stream ChatGPT responses character-by-character.
 Currently, the full response is printed after processing. Updating it to stream each character (or token) as it's received would make the interaction feel more natural and responsive, similar to the official ChatGPT interface.
 - Support more OpenAI models dynamically. Allow users to configure and experiment with other models beyond gpt-3.5-turbo (e.g., gpt-4, gpt-4-turbo, or future releases), either via CLI flags or a config file. 
 - Add optional user interfaces. While the CLI is great for developers, others may prefer a GUI or web-based interface. Building a simple web frontend or TUI (text-based UI) could broaden adoption.
